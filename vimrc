@@ -1,3 +1,5 @@
+call pathogen#infect()
+call pathogen#helptags()
 set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
 set laststatus=2
 syntax on
